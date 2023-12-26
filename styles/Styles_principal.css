@@ -33,7 +33,7 @@ body {
 /*CLASSES CORPO*/
 
 .paginacao{
-    padding: 10% 5%; /* espaçamento do conteudo até a borda, magin já não estava mostrando o o rodape*/
+    padding: 10%; /* espaçamento do conteudo até a borda, magin já não estava mostrando o o rodape*/
     display: flex; /* usa o flex box na estilizacao*/
     align-items: center;
 
