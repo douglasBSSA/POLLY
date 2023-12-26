@@ -1,0 +1,48 @@
+
+/*Reset CSS*/
+* {
+    /*Reseta a margem e padding dos elementos do projeto, fica mais organizado*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');   /*Krona One*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');   /*Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); /*Montserrat wght600*/
+
+/*Palta de cores e fontes*/
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+/*Configurações iniciais de estilo*/
+
+body {
+    box-sizing: border-box; /* não deixa as imagens sair do body*/
+    background-color: var(--cor-primaria);
+    color:  var(--cor-secundaria);
+}
+
+/*CLASSES CORPO*/
+
+.apresentacao{
+    /*margin: 10% 15%;  /* 10% na horizontal e 15% na vertical*/
+    /*padding: 5% 15%; /* espaçamento do conteudo até a borda, magin já não estava mostrando o o rodape*/
+    display: flex; /* usa o flex box na estilizacao*/
+    align-items: center;
+    justify-content:space-between;
+    gap: 40px;
+    }
+
+
+
+
+
+
