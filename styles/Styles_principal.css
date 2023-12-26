@@ -33,15 +33,13 @@ body {
 /*CLASSES CORPO*/
 
 .apresentacao{
-    /*margin: 10% 15%;  /* 10% na horizontal e 15% na vertical*/
-    /*padding: 5% 15%; /* espaçamento do conteudo até a borda, magin já não estava mostrando o o rodape*/
+    margin: 10% 15%;  /* 10% na horizontal e 15% na vertical*/
+    padding: 5% 15%; /* espaçamento do conteudo até a borda, magin já não estava mostrando o o rodape*/
     display: flex; /* usa o flex box na estilizacao*/
+    flex-direction:column;
     align-items: center;
-    justify-content:space-between;
     gap: 40px;
     }
-
-
 
 
 
