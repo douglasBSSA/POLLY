@@ -39,9 +39,9 @@ body {
     }
 
 .paginacao_imagem{
-    width: 50%; /* Em porcentagem ajuda o conteudo se comportar em telas com tamanhos diversos*/
+    width: auto; /* Em porcentagem ajuda o conteudo se comportar em telas com tamanhos diversos*/
     display: flex;
     flex-direction: column; /* conteudo organizado horizontalmente*/
-    gap: 3000px; /*pulo de 40 px entre cada conteudo*/
+    gap: 40px; /*pulo de 40 px entre cada conteudo*/
     }
 
