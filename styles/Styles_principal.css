@@ -36,10 +36,11 @@ body {
     padding: 5% 5%; /* espaçamento do conteudo até a borda, magin já não estava mostrando o o rodape*/
     display: flex; /* usa o flex box na estilizacao*/
     align-items: center;
+    width: auto;
     }
 
 .paginacao_imagem{
-    width: auto; /* Em porcentagem ajuda o conteudo se comportar em telas com tamanhos diversos*/
+ 
     display: flex;
     flex-direction: column; /* conteudo organizado horizontalmente*/
     gap: 40px; /*pulo de 40 px entre cada conteudo*/
